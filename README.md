@@ -4,4 +4,4 @@ docker container to pull together dependencies to compile collabora online ( htt
 
 docker build -t some-image-name .
 
-docker run -it code-dev bash
+docker run -it some-image-name bash
