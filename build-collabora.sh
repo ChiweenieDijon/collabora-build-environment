@@ -13,4 +13,4 @@ chmod +x /sbin/setcap
 make 
 
 echo HOP ON IN:
-echo docker run -it code-dev bash
+echo docker run -it [image name here] bash
