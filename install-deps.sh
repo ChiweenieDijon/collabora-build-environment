@@ -13,3 +13,8 @@ apt-get -y install libpcre++-dev libboost1.62-dev cpio sudo python-polib
 cat nodesource_setup_node.sh | bash -
 apt-get install -y nodejs
 
+#poco
+apt-get -y install libssl-dev
+
+#lokit
+apt-get -y install libcups2-dev libfontconfig1-dev gperf openjdk-8-jdk openjdk-8-jdk graphviz yasm libxslt1-dev xsltproc libxml2-utils python3-lxml python3-cxx-dev comerr-dev uuid flex bison zip ant libepoxy-dev libxext-dev doxygen
